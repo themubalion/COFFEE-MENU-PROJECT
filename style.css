@@ -13,6 +13,7 @@ body {
     padding: 20px;
     max-width: 500px;
     margin-top: 20px;
+    padding-bottom: 5px;
 }
 
 .flavor {
@@ -50,21 +51,51 @@ hr {
 
 h1 {
     font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 5px;
 }
 
 h2 {
     font-size: 30px;
+    margin-top: 20px;
 }
 
 p.foot {
     font-size: 14px;
-
+    font-family: sans-serif;
 }
 
 .git {
     color: black;
 }
 
+.git:hover{
+    color: brown;
+}
+
+.git:active{
+    color: brown;
+}
+
 .git:visited {
-    color: grey;
+    color: black;
+}
+
+hr.FOOTER {
+    margin-bottom: 10px;
+}
+
+.established {
+    margin-top: 10px;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: -25px;
+}
+
+.address {
+    margin-bottom: 0px;
 }
